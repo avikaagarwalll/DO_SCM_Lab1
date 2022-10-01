@@ -15,6 +15,13 @@ public class MyClass {
         int c = a+b;
         System.out.println("Sum  is"+c);
     }
+    public void div(int x,int y)
+    {
+        a=x;
+        b=y;
+        int c = a/b;
+        System.out.println("Divide is"+c);
+    }
     public static void main(String[]args){
          MyClass ob = new MyClass();
          ob.mul(2,5);
